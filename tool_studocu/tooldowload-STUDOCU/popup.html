@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="vi">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Vịt Quay Nhiều Vị</title>
+  <link rel="stylesheet" href="popup.css">
+</head>
+
+<body>
+
+  <header>
+    <div class="header-container">
+      <div class="logo">
+        <img src="logo.png" alt="Logo" width="50" height="50" >
+        <div class="title-group">
+          <h1>Vịt Quay Nhiều Vị</h1>
+          <span class="dev-tag">Developed by <strong>AnhDT</strong></span>
+        </div>
+      </div>
+      <img src="bread.gif" alt="Gif" width="50" height="50" class="bread-gif">
+    </div>
+  </header>
+
+  <main>
+    <div class="intro-box">
+      <p>Xem và tải file Studocu hoàn toàn miễn phí.</p>
+    </div>
+
+    <div class="action-grid">
+      <button id="checkBtn" class="action-btn primary-btn">
+        <div class="icon-circle">
+          <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
+            stroke-linecap="round" stroke-linejoin="round">
+            <path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4" />
+            <polyline points="7 10 12 15 17 10" />
+            <line x1="12" x2="12" y1="15" y2="3" />
+          </svg>
+        </div>
+        <div class="btn-info">
+          <span class="btn-heading">Tải File PDF</span>
+          <span class="btn-sub">Tự động dàn trang in</span>
+        </div>
+      </button>
+      <p
+        style="font-size: 11px; color: var(--text-muted); text-align: center; margin: 0 0 -8px 0; font-style: italic; font-weight: 500;">
+        (Hãy cuộn chuột tới cuối tài liệu để tải toàn bài trước khi Tải PDF)</p>
+
+      <button id="clearBtn" class="action-btn secondary-btn">
+        <div class="icon-circle">
+          <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
+            stroke-linecap="round" stroke-linejoin="round">
+            <path d="M2 12s3-7 10-7 10 7 10 7-3 7-10 7-10-7-10-7Z" />
+            <circle cx="12" cy="12" r="3" />
+          </svg>
+        </div>
+        <div class="btn-info">
+          <span class="btn-heading">Xem file & Xóa Watermark</span>
+          <span class="btn-sub">Vượt rào cản tài liệu</span>
+        </div>
+      </button>
+
+      <button id="captureBtn" class="action-btn secondary-btn">
+        <div class="icon-circle">
+          <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
+            stroke-linecap="round" stroke-linejoin="round">
+            <path d="M23 19a2 2 0 0 1-2 2H3a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h4l2-3h6l2 3h4a2 2 0 0 1 2 2z" />
+            <circle cx="12" cy="13" r="4" />
+          </svg>
+        </div>
+        <div class="btn-info">
+          <span class="btn-heading">Lưu thành ảnh</span>
+          <span class="btn-sub">Tải trang đang mở (.PNG)</span>
+        </div>
+      </button>
+    </div>
+  </main>
+  <script src="popup.js"></script>
+</body>
+
+</html>
